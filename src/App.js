@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import SignUpForm from './frontend/Signup';
+import { Router, Routes, route} from 'react-router-dom';
+import MessengerDashboard from './frontend/Maindashboard';
+import Navbar from './frontend/Navbar'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Navbar/>
+      <div>
+         <MessengerDashboard/>
+      </div>
     </div>
+
   );
 }
 

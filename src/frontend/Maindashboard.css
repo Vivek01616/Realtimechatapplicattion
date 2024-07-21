@@ -1,0 +1,72 @@
+.messenger-dashboard {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .users-list {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .users-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .users-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .users-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .chat-window {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .chat-messages {
+    padding: 10px;
+  }
+  
+  .chat-messages li {
+    margin-bottom: 10px;
+  }
+  
+  .chat-messages li .message-text {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .chat-input {
+    padding: 10px;
+  }
+  
+  .chat-input input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .chat-input button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
